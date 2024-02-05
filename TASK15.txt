@@ -1,0 +1,41 @@
+TASK 15
+
+1.EXPLAIN THE DB OF SELENIUM IDE,WEBDRIVER,GRID?
+It has four components namely,
+i. Selenium IDE (Integrated Development Environment)
+ii. Selenium RC (Remote Control)
+iii. Selenium WebDriver
+iv. Selenium Grid
+*Selenium IDE (Integrated Development Environment) is a Firefox plugin. It is the simplest framework in the Selenium Suite. It allows us to record and playback the scripts. Even though we can create scripts using Selenium IDE, we need to use Selenium RC or Selenium WebDriver to write more advanced and robust test cases.
+
+Operation System Support – Windows, Mac OS, Linux
+Browser Support – Mozilla Firefox
+
+*Selenium WebDriver AKA Selenium 2 is a browser automation framework that accepts commands and sends them to a browser. It is implemented through a browser-specific driver. It controls the browser by directly communicating with it. Selenium WebDriver supports Java, C#, PHP, Python, Perl, Ruby.
+
+*Operation System Support – Windows, Mac OS, Linux, Solaris
+Browser Support – Mozilla Firefox
+Selenium Grid is a tool used together with Selenium RC to run tests on different machines against different browsers in parallel. That is, running multiple tests at the same time against different machines running different browsers and operating systems.
+
+3.what is selenium and how it is useful to automation testing?
+ Selenium is an open-source, automated testing tool used to test web applications across various browsers. Selenium can only test web applications, unfortunately, so desktop and mobile apps can't be tested. However, other tools like Appium and HP's QTP can be used to test software and mobile applications
+Automation testing aims to improve testing efficiency, accuracy, and speed by automating repetitive and time-consuming manual testing tasks. Automation testing or test automation uses open source or paid automated testing tools to test software applications quickly and efficiently, and 24/7 without human intervention.
+
+4.what are all browsersdriver used for selenium?
+A WebDriver is a browser automation framework. It accepts commands and sends them to a browser. 
+
+WebDriver in Selenium was created by Simon Stewart in 2006. It was the first cross-platform testing framework that could control the browser from the level of the operating system. 
+
+Selenium WebDriver is a programming interface that can be used to create and execute test cases. It allows you to test across all major programming languages, browsers, and operating systems.
+
+It can run across different platforms and because it is made up of different language bindings: it allows you to code in different languages. 
+
+5.What are the steps to create a simple web driver script? explain the code?
+
+Create a WebDriver instance.
+Navigate to a webpage.
+Locate a web element on the webpage via locators in selenium.
+Perform one or more user actions on the element.
+Preload the expected output/browser response to the action.
+Run test.
+Record results and compare results from them to the expected output.
